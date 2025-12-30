@@ -1,7 +1,7 @@
 import java.util.*;
 
 //this contains string related codes:
-// hashmap || palindrome || anagram || Longest and shortest word ||
+// hashmap || palindrome || anagram || Longest and shortest word || Alphanumeric check ||
 
 public class strings {
     public static void main(String[] args) {
@@ -79,6 +79,21 @@ public class strings {
         }
         System.out.println("Longest word: " + longWord);
         System.out.println("Smallest word:" + smallWord);
+
+        System.out.println("_______________________________________________________________!");
+        System.out.println("!");
+
+        //to check the given string is alpanumeric or not
+
+        String alphanum = "Arun23ksuk23";
+        boolean alpha_yes = true;
+        for (char c : alphanum.toCharArray()){
+            if(!Character.isLetterOrDigit(c)){
+                alpha_yes = false;
+                break;
+            }
+        }
+        System.out.println("Given is - " + alphanum + " - It is " + alpha_yes);
 
         System.out.println("_______________________________________________________________!");
         System.out.println("!");
