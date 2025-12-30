@@ -98,5 +98,23 @@ public class strings {
         System.out.println("_______________________________________________________________!");
         System.out.println("!");
 
+        //need output as a1b2c3d4 for input abcd
+        String letters = "abcd";
+        String letnumcombination ="";
+
+        for (int i =1; i<letters.length()+1;i++){
+            char c = letters.charAt(i-1);
+            if(Character.isLetter(c)){
+                // letnumcombination.append().append(i+1);
+                letnumcombination =letnumcombination + c + i;
+            }
+        }
+        System.out.println("Given input : " + letters);
+        System.out.println("The required output : " + letnumcombination);
+
+
+        System.out.println("_______________________________________________________________!");
+        System.out.println("!");
+
     }
 }
