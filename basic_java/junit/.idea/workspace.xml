@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85a5e08a-5719-4eb4-83fa-43a33d08611c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit_one/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit_one/src/test/java/junit_setup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junitbasic_one/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junitbasic_one/src/test/java/open_browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/junit_one/src/test/java/open_browser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit_one/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +48,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.junit_setup.testMessage.executor": "Run",
+    "JUnit.open_browser.executor": "Run",
+    "JUnit.open_browser.open_browser.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -71,7 +67,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.open_browser">
     <configuration name="junit_setup.testMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_one" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,8 +78,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="open_browser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_one" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="open_browser" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="open_browser.open_browser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_one" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="open_browser" />
+      <option name="METHOD_NAME" value="open_browser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.open_browser" />
+        <item itemvalue="JUnit.open_browser.open_browser" />
         <item itemvalue="JUnit.junit_setup.testMessage" />
       </list>
     </recent_temporary>
