@@ -22,7 +22,7 @@ public class strings {
         System.out.println("_______________________________________________________________!");
         System.out.println("!");
 
-        // find whether the given string is palindrome or not ||
+        // Find whether the given string is palindrome or not ||
         //REVERSE THE GIVEN STRING
 
         String given = "MADAM";
@@ -115,6 +115,7 @@ public class strings {
 
         System.out.println("_______________________________________________________________!");
         System.out.println("!");
+
 
     }
 }
