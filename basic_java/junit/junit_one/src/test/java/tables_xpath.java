@@ -3,7 +3,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import java.util.List;
 
 public class tables_xpath {
 
@@ -19,8 +21,16 @@ public class tables_xpath {
 
         @Test
         public void xpath(){
-            String text = driver.findElement(By.xpath("//table[@class='ws-table-all']//td[2][contains(.,'e')and contains(.,'i')]")).getText();
-        System.out.println(text);
+
+           //Print the words that contains 'e' and 'i' in a particular coloumn xpath finding
+            String containEandI = "//table[@class='ws-table-all']//td[2][contains(.,'e') and contains(.,'i')]";
+            System.out.println("XPath used to find e and i contain words in column 2: " + containEandI);
+
+
+            List<WebElement> texts = driver.findElements(By.xpath(containEandI));
+            for(WebElement ele : texts){
+                System.out.println(ele.getText());
+            }
         }
 
         @After

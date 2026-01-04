@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85a5e08a-5719-4eb4-83fa-43a33d08611c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/junit_one/src/test/java/tables_xpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/junit_one/src/test/java/table_operations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junit_one/target/test-classes/junit_setup.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_one/target/test-classes/junit_setup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junit_one/target/test-classes/open_browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_one/target/test-classes/open_browser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_one/src/test/java/tables_xpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit_one/src/test/java/tables_xpath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_one/target/test-classes/tables.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,8 @@
     "JUnit.open_browser.executor": "Run",
     "JUnit.open_browser.open_browser.executor": "Run",
     "JUnit.tables.executor": "Run",
+    "JUnit.tables_xpath.executor": "Run",
+    "JUnit.tables_xpath.xpath.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -70,7 +72,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.tables">
+  <component name="RunManager" selected="JUnit.tables_xpath.xpath">
     <configuration name="junit_setup and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_one" />
       <option name="TEST_OBJECT" value="pattern" />
@@ -78,16 +80,6 @@
         <pattern testClass="junit_setup" />
         <pattern testClass="open_browser" />
       </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="junit_setup.testMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_one" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="junit_setup" />
-      <option name="METHOD_NAME" value="testMessage" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,16 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="open_browser.open_browser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_one" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="open_browser" />
-      <option name="METHOD_NAME" value="open_browser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="tables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_one" />
       <option name="PACKAGE_NAME" value="" />
@@ -120,13 +102,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tables_xpath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_one" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="tables_xpath" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tables_xpath.xpath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_one" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="tables_xpath" />
+      <option name="METHOD_NAME" value="xpath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.tables_xpath.xpath" />
+        <item itemvalue="JUnit.tables_xpath" />
         <item itemvalue="JUnit.tables" />
         <item itemvalue="JUnit.junit_setup and 1 more" />
         <item itemvalue="JUnit.open_browser" />
-        <item itemvalue="JUnit.open_browser.open_browser" />
-        <item itemvalue="JUnit.junit_setup.testMessage" />
       </list>
     </recent_temporary>
   </component>
