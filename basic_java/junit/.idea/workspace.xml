@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85a5e08a-5719-4eb4-83fa-43a33d08611c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/junit_one/src/test/java/table_operations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junit_one/src/test/java/tables_xpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit_one/src/test/java/tables_xpath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junit_one/target/test-classes/tables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_one/src/test/java/table_operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit_one/src/test/java/table_operations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,21 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "kumarcodes001"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kumarcodes001&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/kumarcodes001/to_a_Tester.git",
-    "accountId": "700ea623-dd77-4d79-8e81-1a0ac9847da9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kumarcodes001/to_a_Tester.git&quot;,
+    &quot;accountId&quot;: &quot;700ea623-dd77-4d79-8e81-1a0ac9847da9&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="37b9Mb0NC93crMSKV5b8I7vFgLP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,6 +52,7 @@
     "JUnit.junit_setup.testMessage.executor": "Run",
     "JUnit.open_browser.executor": "Run",
     "JUnit.open_browser.open_browser.executor": "Run",
+    "JUnit.table_operations.executor": "Run",
     "JUnit.tables.executor": "Run",
     "JUnit.tables_xpath.executor": "Run",
     "JUnit.tables_xpath.xpath.executor": "Run",
@@ -72,7 +72,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.tables_xpath.xpath">
+  <component name="RunManager" selected="JUnit.table_operations">
     <configuration name="junit_setup and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_one" />
       <option name="TEST_OBJECT" value="pattern" />
@@ -84,10 +84,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="open_browser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="table_operations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_one" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="open_browser" />
+      <option name="MAIN_CLASS_NAME" value="table_operations" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.table_operations" />
         <item itemvalue="JUnit.tables_xpath.xpath" />
         <item itemvalue="JUnit.tables_xpath" />
         <item itemvalue="JUnit.tables" />
         <item itemvalue="JUnit.junit_setup and 1 more" />
-        <item itemvalue="JUnit.open_browser" />
       </list>
     </recent_temporary>
   </component>
