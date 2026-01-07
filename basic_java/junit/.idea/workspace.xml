@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85a5e08a-5719-4eb4-83fa-43a33d08611c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit_one/src/test/java/table_operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit_one/src/test/java/table_operations.java" afterDir="false" />
     </list>
@@ -53,6 +51,7 @@
     "JUnit.open_browser.executor": "Run",
     "JUnit.open_browser.open_browser.executor": "Run",
     "JUnit.table_operations.executor": "Run",
+    "JUnit.table_operations.table_ops.executor": "Run",
     "JUnit.tables.executor": "Run",
     "JUnit.tables_xpath.executor": "Run",
     "JUnit.tables_xpath.xpath.executor": "Run",
@@ -72,23 +71,22 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.table_operations">
-    <configuration name="junit_setup and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_one" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="junit_setup" />
-        <pattern testClass="open_browser" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.table_operations.table_ops">
     <configuration name="table_operations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_one" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="table_operations" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="table_operations.table_ops" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_one" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="table_operations" />
+      <option name="METHOD_NAME" value="table_ops" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.table_operations.table_ops" />
         <item itemvalue="JUnit.table_operations" />
         <item itemvalue="JUnit.tables_xpath.xpath" />
         <item itemvalue="JUnit.tables_xpath" />
         <item itemvalue="JUnit.tables" />
-        <item itemvalue="JUnit.junit_setup and 1 more" />
       </list>
     </recent_temporary>
   </component>

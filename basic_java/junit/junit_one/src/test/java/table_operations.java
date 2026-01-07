@@ -1,3 +1,4 @@
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -31,5 +32,10 @@ public class table_operations {
         for(WebElement word : Ele){
             System.out.println("Word ===>" + word.getText());
         }
+    }
+    @After
+    public void close() throws InterruptedException {
+        Thread.sleep(10000);
+        driver.close();
     }
 }
