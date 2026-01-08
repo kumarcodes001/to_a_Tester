@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f467d7b4-9c64-465d-ac38-7debab075a14" name="Changes" comment="alert and jsexecutor - Scroll and click" />
+    <list default="true" id="f467d7b4-9c64-465d-ac38-7debab075a14" name="Changes" comment="testNG creation">
+      <change afterPath="$PROJECT_DIR$/basic_java/junit/junit_one/src/test/java/aForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic_java/junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic_java/junit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic_java/junit/junit_one/src/test/java/alerts_frames.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic_java/junit/junit_one/src/test/java/alerts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic_java/junit/junit_one/target/test-classes/alerts_frames.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767860600031</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="testNG creation">
+      <option name="closed" value="true" />
+      <created>1767861830011</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1767861830011</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +205,7 @@
     <MESSAGE value="tables_ops_file_creation" />
     <MESSAGE value="implicity wait and table xpath" />
     <MESSAGE value="alert and jsexecutor - Scroll and click" />
-    <option name="LAST_COMMIT_MESSAGE" value="alert and jsexecutor - Scroll and click" />
+    <MESSAGE value="testNG creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="testNG creation" />
   </component>
 </project>
