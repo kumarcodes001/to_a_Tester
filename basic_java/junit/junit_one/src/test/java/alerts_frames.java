@@ -29,19 +29,23 @@ public class alerts_frames {
     @Test
     public void alerts(){
 
+
         //Scroll 500 down using java executor
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,500);");
 
         //ALERT - CLICK SENDkEYS AND ACCEPT.
         driver.findElement(By.xpath("//button[@id='promtButton']")).click();
-        System.out.println("On button click, prompt box will appear ===>> clicked " + "//button[@id='promtButton']");
+        System.out.println("On button click, prompt box will appear ===>> clicked " +
+                "//button[@id='promtButton']");
         Alert alert = driver.switchTo().alert();
         alert.sendKeys("Thalapathy !");
         alert.accept();
         String Typed = driver.findElement(By.xpath("//span[@id='promptResult']")).getText();
         System.out.println("ALERT WORKED? == ? -> " + Typed);
     }
+
+
     @After
     public void close(){
         driver.close();
