@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit_one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit_one/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit_one/src/test/java/aForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit_one/src/test/java/aForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junit_one/target/test-classes/aForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_one/target/test-classes/aForm.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
     "settings.editor.selected.configurable": "configurable.group.tools"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.aForm">
+  <component name="RunManager" selected="JUnit.aForm.forma_fillup">
     <configuration name="aForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_one" />
       <option name="PACKAGE_NAME" value="" />
@@ -130,8 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.aForm" />
         <item itemvalue="JUnit.aForm.forma_fillup" />
+        <item itemvalue="JUnit.aForm" />
         <item itemvalue="JUnit.alerts.alerts" />
         <item itemvalue="JUnit.table_operations.table_ops" />
       </list>

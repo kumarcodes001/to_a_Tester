@@ -1,3 +1,4 @@
+import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -7,6 +8,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
@@ -26,7 +29,7 @@ public class aForm {
     }
 
     @Test
-    public void forma_fillup() throws InterruptedException {
+    public void forma_fillup() throws InterruptedException, IOException {
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
@@ -75,9 +78,15 @@ public class aForm {
      //  WebElement hobbies = driver.findElement(By.id("hobbies-checkbox-1"));
     //   hobbies.click();
 
-        //Upload a file -
+        //Upload a file - simple
         WebElement up_element = driver.findElement(By.id("uploadPicture"));
         up_element.sendKeys("F:/Testing/File.txt");
+
+        //Screeshot syntax
+        TakesScreenshot ts = (TakesScreenshot)driver;
+        File Src = ts.getScreenshotAs(OutputType.FILE);
+        File des =new File("./ss.jpg");
+        FileUtils.copyFile(Src,des);
 
 
         //dropdown funtionalities
@@ -91,7 +100,7 @@ public class aForm {
         dd_div_ele.selectByIndex(2);*/
 
         Thread.sleep(1000);
-        driver.findElement(By.xpath("//button[@id='submit']")).click();
+        //driver.findElement(By.xpath("//button[@id='submit']")).click();
 
 
 
